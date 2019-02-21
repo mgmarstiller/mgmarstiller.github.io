@@ -1,0 +1,84 @@
+body {
+  background-color: #cc0099;
+  color: #99ff33;
+  border-style: inset;
+  border-width: thick;
+  border-color: inherit;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 60px;
+}
+p {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bolder;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li {
+  background-color: white;
+  padding: 30px;
+  font-size: 30px;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+li:hover {
+opacity: 0.5; 
+}
+.fish {
+  color: orange;
+  text-decoration: underline;
+  margin-top: 40px;
+  padding: 30px;
+
+}
+
+.mammals {
+  color:red;
+  font-weight: bold;
+  padding: 0px 30px;
+
+}
+
+.other {
+  color:red;
+  font-weight: bold;
+  padding: 0px 30px;
+
+}
+
+
+.birds {
+  color: blue;
+  font-style: italic;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+#firstList {
+  background-color: blue;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+img {
+  width: 100%;
+}
